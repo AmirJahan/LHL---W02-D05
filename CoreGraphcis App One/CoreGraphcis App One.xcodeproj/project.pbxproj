@@ -16,37 +16,6 @@
 		2918B071203E587C007BF3B6 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2918B070203E587C007BF3B6 /* DrawView.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		29F4BB9C203FDFF300515EE6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29F4BB98203FDFF300515EE6 /* CoreGraphics App One Point Five.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 29F4BB54203FD79300515EE6;
-			remoteInfo = "CoreGraphics App One Point Five";
-		};
-		29F4BBA2203FE01A00515EE6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29F4BB9E203FE01A00515EE6 /* CoreGraphics App One Point Five.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 29F4BB54203FD79300515EE6;
-			remoteInfo = "CoreGraphics App One Point Five";
-		};
-		29F4BBAB203FE02800515EE6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29F4BBA7203FE02800515EE6 /* CoreGraphics App One Point Five.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 29F4BB54203FD79300515EE6;
-			remoteInfo = "CoreGraphics App One Point Five";
-		};
-		29F4BBB7203FE03200515EE6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29F4BBB3203FE03200515EE6 /* CoreGraphics App Two.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2918B07B203E6489007BF3B6;
-			remoteInfo = "CoreGraphics App Two";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		2918B056203E562F007BF3B6 /* CoreGraphcis App One.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreGraphcis App One.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2918B059203E562F007BF3B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,11 +29,6 @@
 		2918B068203E562F007BF3B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2918B06F203E587C007BF3B6 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
 		2918B070203E587C007BF3B6 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
-		29F4BB98203FDFF300515EE6 /* CoreGraphics App One Point Five.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CoreGraphics App One Point Five.xcodeproj"; path = "../CoreGraphics App One Point Five/CoreGraphics App One Point Five.xcodeproj"; sourceTree = "<group>"; };
-		29F4BB9E203FE01A00515EE6 /* CoreGraphics App One Point Five.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CoreGraphics App One Point Five.xcodeproj"; path = "../CoreGraphics App One Point Five/CoreGraphics App One Point Five.xcodeproj"; sourceTree = "<group>"; };
-		29F4BBA4203FE01E00515EE6 /* CoreGraphcis App One.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "CoreGraphcis App One.xcodeproj"; sourceTree = "<group>"; };
-		29F4BBA7203FE02800515EE6 /* CoreGraphics App One Point Five.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CoreGraphics App One Point Five.xcodeproj"; path = "../CoreGraphics App One Point Five/CoreGraphics App One Point Five.xcodeproj"; sourceTree = "<group>"; };
-		29F4BBB3203FE03200515EE6 /* CoreGraphics App Two.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CoreGraphics App Two.xcodeproj"; path = "../CoreGraphics App Two/CoreGraphics App Two.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +45,6 @@
 		2918B04D203E562F007BF3B6 = {
 			isa = PBXGroup;
 			children = (
-				29F4BBB3203FE03200515EE6 /* CoreGraphics App Two.xcodeproj */,
-				29F4BBA7203FE02800515EE6 /* CoreGraphics App One Point Five.xcodeproj */,
-				29F4BBA4203FE01E00515EE6 /* CoreGraphcis App One.xcodeproj */,
-				29F4BB98203FDFF300515EE6 /* CoreGraphics App One Point Five.xcodeproj */,
-				29F4BB9E203FE01A00515EE6 /* CoreGraphics App One Point Five.xcodeproj */,
 				2918B058203E562F007BF3B6 /* CoreGraphcis App One */,
 				2918B057203E562F007BF3B6 /* Products */,
 			);
@@ -115,43 +74,6 @@
 				2918B068203E562F007BF3B6 /* main.m */,
 			);
 			path = "CoreGraphcis App One";
-			sourceTree = "<group>";
-		};
-		29F4BB99203FDFF300515EE6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				29F4BB9D203FDFF300515EE6 /* CoreGraphics App One Point Five.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		29F4BB9F203FE01A00515EE6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				29F4BBA3203FE01A00515EE6 /* CoreGraphics App One Point Five.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		29F4BBA5203FE01E00515EE6 /* Products */ = {
-			isa = PBXGroup;
-			name = Products;
-			sourceTree = "<group>";
-		};
-		29F4BBA8203FE02800515EE6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				29F4BBAC203FE02800515EE6 /* CoreGraphics App One Point Five.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		29F4BBB4203FE03200515EE6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				29F4BBB8203FE03200515EE6 /* CoreGraphics App Two.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,65 +122,12 @@
 			mainGroup = 2918B04D203E562F007BF3B6;
 			productRefGroup = 2918B057203E562F007BF3B6 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 29F4BBA5203FE01E00515EE6 /* Products */;
-					ProjectRef = 29F4BBA4203FE01E00515EE6 /* CoreGraphcis App One.xcodeproj */;
-				},
-				{
-					ProductGroup = 29F4BBA8203FE02800515EE6 /* Products */;
-					ProjectRef = 29F4BBA7203FE02800515EE6 /* CoreGraphics App One Point Five.xcodeproj */;
-				},
-				{
-					ProductGroup = 29F4BB9F203FE01A00515EE6 /* Products */;
-					ProjectRef = 29F4BB9E203FE01A00515EE6 /* CoreGraphics App One Point Five.xcodeproj */;
-				},
-				{
-					ProductGroup = 29F4BB99203FDFF300515EE6 /* Products */;
-					ProjectRef = 29F4BB98203FDFF300515EE6 /* CoreGraphics App One Point Five.xcodeproj */;
-				},
-				{
-					ProductGroup = 29F4BBB4203FE03200515EE6 /* Products */;
-					ProjectRef = 29F4BBB3203FE03200515EE6 /* CoreGraphics App Two.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				2918B055203E562F007BF3B6 /* CoreGraphcis App One */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		29F4BB9D203FDFF300515EE6 /* CoreGraphics App One Point Five.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "CoreGraphics App One Point Five.app";
-			remoteRef = 29F4BB9C203FDFF300515EE6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		29F4BBA3203FE01A00515EE6 /* CoreGraphics App One Point Five.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "CoreGraphics App One Point Five.app";
-			remoteRef = 29F4BBA2203FE01A00515EE6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		29F4BBAC203FE02800515EE6 /* CoreGraphics App One Point Five.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "CoreGraphics App One Point Five.app";
-			remoteRef = 29F4BBAB203FE02800515EE6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		29F4BBB8203FE03200515EE6 /* CoreGraphics App Two.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "CoreGraphics App Two.app";
-			remoteRef = 29F4BBB7203FE03200515EE6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2918B054203E562F007BF3B6 /* Resources */ = {

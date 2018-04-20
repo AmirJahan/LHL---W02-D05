@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		292964B7208A59FC003FFCBF /* MyUiTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 292964B6208A59FC003FFCBF /* MyUiTextField.m */; };
 		29F4BB59203FD79300515EE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F4BB58203FD79300515EE6 /* AppDelegate.m */; };
 		29F4BB5C203FD79300515EE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F4BB5B203FD79300515EE6 /* ViewController.m */; };
 		29F4BB5F203FD79300515EE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29F4BB5D203FD79300515EE6 /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		292964B5208A59FC003FFCBF /* MyUiTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyUiTextField.h; sourceTree = "<group>"; };
+		292964B6208A59FC003FFCBF /* MyUiTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyUiTextField.m; sourceTree = "<group>"; };
 		29F4BB54203FD79300515EE6 /* CoreGraphics App One Point Five.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreGraphics App One Point Five.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29F4BB57203FD79300515EE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		29F4BB58203FD79300515EE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -64,10 +67,12 @@
 				29F4BB57203FD79300515EE6 /* AppDelegate.h */,
 				29F4BB58203FD79300515EE6 /* AppDelegate.m */,
 				29F4BB5A203FD79300515EE6 /* ViewController.h */,
+				29F4BB5B203FD79300515EE6 /* ViewController.m */,
 				29F4BB6D203FD79E00515EE6 /* DrawView.h */,
 				29F4BB6E203FD79E00515EE6 /* DrawView.m */,
-				29F4BB5B203FD79300515EE6 /* ViewController.m */,
 				29F4BB5D203FD79300515EE6 /* Main.storyboard */,
+				292964B5208A59FC003FFCBF /* MyUiTextField.h */,
+				292964B6208A59FC003FFCBF /* MyUiTextField.m */,
 				29F4BB60203FD79300515EE6 /* Assets.xcassets */,
 				29F4BB62203FD79300515EE6 /* LaunchScreen.storyboard */,
 				29F4BB65203FD79300515EE6 /* Info.plist */,
@@ -150,6 +155,7 @@
 				29F4BB5C203FD79300515EE6 /* ViewController.m in Sources */,
 				29F4BB67203FD79300515EE6 /* main.m in Sources */,
 				29F4BB6F203FD79E00515EE6 /* DrawView.m in Sources */,
+				292964B7208A59FC003FFCBF /* MyUiTextField.m in Sources */,
 				29F4BB59203FD79300515EE6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

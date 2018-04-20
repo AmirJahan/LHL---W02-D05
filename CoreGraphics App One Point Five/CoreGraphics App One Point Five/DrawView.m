@@ -2,10 +2,9 @@
 
 @implementation DrawView
 
-
+// gets call everytime there's a need to redraw
 - (void)drawRect:(CGRect)rect
 {
-    
     UIBezierPath *path = [UIBezierPath bezierPath];
     path.lineWidth = 5.0;
     path.lineCapStyle = kCGLineCapRound;
@@ -18,9 +17,6 @@
     [path addLineToPoint: CGPointMake(300, 50)];
     
     [path stroke];
-    
-
 }
-
 
 @end

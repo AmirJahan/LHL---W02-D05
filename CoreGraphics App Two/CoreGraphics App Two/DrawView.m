@@ -55,6 +55,13 @@
     // Tell the system that we need to be redrawn, so the system will call drawRect: before
     // the end of the current event loop
     [self setNeedsDisplay];
+    
+    for ( LineSegmentDataModel* any in self.linesArr)
+    {
+     
+        NSLog(@"This segment first point is: %@", NSStringFromCGPoint( any.firstPoint));
+        NSLog(@"This segment second point is: %@", NSStringFromCGPoint( any.secondPoint));
+    }
 }
 
 #pragma mark - Drawing

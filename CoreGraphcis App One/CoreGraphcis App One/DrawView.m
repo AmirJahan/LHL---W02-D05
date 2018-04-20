@@ -29,8 +29,8 @@
     CGContextSetLineWidth(context, 5.0);
     CGContextSetStrokeColorWithColor(context, [UIColor redColor].CGColor);
     CGPoint points[] = {
-        CGPointMake(10, 100),
-        CGPointMake(10, 200),
+        CGPointMake(50, 50),
+        CGPointMake(10, 200)
     };
     CGContextAddLines(context, points, 2);
     CGContextStrokeLineSegments(context, points, 2);

@@ -1,8 +1,8 @@
 //
 //  AppDelegate.h
-//  Day 5 Week 2
+//  Text Field App Class
 //
-//  Created by Amir J on 2/22/18.
+//  Created by Amir J on 2/23/18.
 //  Copyright © 2018 Cinard Digital Media Institute. All rights reserved.
 //
 

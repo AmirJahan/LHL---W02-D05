@@ -14,6 +14,9 @@
     
     self.textView.text = @"";
     [[self textView] setDelegate: self];
+    
+    _textView.editable = false;
+    
     _curText = @"";
 }
 
@@ -30,11 +33,20 @@
     self.textView.text = @"";
 }
 
+
+
+
+
 -           (BOOL)textView:(UITextView *)textView
    shouldChangeTextInRange:(NSRange)range
            replacementText:(NSString *)text
 {
+    
+    
+    // amir.jahan@gmailcom
+    // j
     NSCharacterSet *numbersOnlySet = [NSCharacterSet characterSetWithCharactersInString:@"0123456789"];
+    
     NSCharacterSet *inTextViewSet = [NSCharacterSet characterSetWithCharactersInString:text];
     
     BOOL stringIsValid = [numbersOnlySet isSupersetOfSet:inTextViewSet];
@@ -42,6 +54,11 @@
         
     return stringIsValid;
 }
+
+
+
+
+
 
 - (void)textViewDidChange:(UITextView *)textView
 {

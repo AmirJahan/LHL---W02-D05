@@ -10,3 +10,8 @@
 - (instancetype)initWithFirstPoint:(CGPoint)first
                        secondPoint:(CGPoint)second;
 @end
+
+
+// 50,50 - 100,100
+// 100,100 - 200,200
+// 300,300 - 400,400
